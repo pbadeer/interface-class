@@ -94,3 +94,13 @@ header a {
   display: inline-block;
   margin-left: 140px;
 }
+
+.video {
+  background: url('../img/video-bg.jpg') no-repeat top center;
+  height: 523px;
+  line-height: 523px;
+  text-align: center;
+}
+.video img {
+  vertical-align: middle;
+}
