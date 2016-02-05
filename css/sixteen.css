@@ -54,3 +54,43 @@ header a {
     margin-top: 132px;
     display: block;
 }
+.who {
+  padding: 90px 0;
+  font-family: "Source Sans Pro";
+  color: #454545;
+}
+.who h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.who h3 img {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.who p {
+  font-size: 18px;
+}
+.who p + p {
+  margin-top: 30px;
+}
+.who a {
+  border: 1px solid #acd373;
+  color: #acd373;
+  font-family: "DroidSerif";
+  font-style: italic;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 45px;
+}
+.who .container div {
+  width: 769px;
+  display: inline-block;
+  vertical-align: top;
+}
+.who .container > img {
+  display: inline-block;
+  margin-left: 140px;
+}
