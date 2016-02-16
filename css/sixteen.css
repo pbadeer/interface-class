@@ -76,7 +76,7 @@ header a {
 .who p + p {
   margin-top: 30px;
 }
-.who a {
+a.learn {
   border: 1px solid #acd373;
   color: #acd373;
   font-family: "DroidSerif";
@@ -105,4 +105,75 @@ header a {
 }
 .video img {
   vertical-align: middle;
+}
+
+.services {
+  
+}
+
+.testimonials {
+  padding-top: 120px;
+  padding-bottom: 109px;
+  color: #f7f7f7;
+  font-family: "Source Sans Pro";
+  background: url('../img/testimonials-bg.jpg') no-repeat center center;
+}
+.testimonials .container > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.testimonials .container > div {
+  width: 298px;
+}
+.testimonials h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.testimonials p {
+  font-size: 18px;
+  margin-top: 37px;
+  line-height: 1.25em;
+}
+.testimonials ul {
+  margin-left: 90px;
+}
+.testimonials li {
+  display: inline-block;
+  vertical-align: top;
+  width: 370px;
+}
+.testimonials li:first-of-type {
+  margin-right: 31px;
+}
+.testimonials li img {
+  border-radius: 50%;
+  display: inline-block;
+}
+.testimonials li div {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
+  color: #acd373;
+  margin-left: 28px;
+  vertical-align: top;
+  padding-top: 27px;
+}
+.testimonials li a {
+  margin-top: 17px;
+  display: block;
+  font-family: "DroidSerif";
+  font-style: italic;
+  color: #f7f7f7;
+  text-decoration: none;
+  font-weight: normal;
+}
+.testimonials blockquote {
+  background: url('../img/testimonial-bg.png') no-repeat top center;
+  padding-top: 26px;
+  padding-left: 13px;
+  padding-right: 21px;
+  height: 118px;
+  line-height: 1.25em;
+  margin-bottom: 17px;
 }
