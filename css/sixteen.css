@@ -110,6 +110,7 @@ a.learn {
 .services {
   padding-top: 100px;
   padding-bottom: 100px;
+  text-align: center;
 }
 .services h3 {
   text-align: center;
@@ -142,6 +143,7 @@ a.learn {
 }
 .services li {
   margin-top: 84px;
+  text-align: left;
 }
 .services li,
 .services li div {
