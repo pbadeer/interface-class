@@ -130,7 +130,6 @@ a.learn {
 }
 .services hr {
   margin-top: 20px;
-/*  margin-bottom: 90px;*/
   border: none;
   height: 10px;
   background: url('../img/hr-dark.png') no-repeat center center;
@@ -188,32 +187,32 @@ a.learn {
 }
 
 
-.ourTeam {
+.team {
   background: #acd373;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
   color: #fff;
 }
-.ourTeam h3 {
+.team h3 {
   font-family: "Source Sans Pro";
   font-size: 30px;
 }
-.ourTeam p {
+.team p {
   font-family: "DroidSerif";
   font-size: 18px;
   margin-top: 20px;
 }
-.ourTeam hr {
+.team hr {
   border: none;
   height: 10px;
   margin-top: 18px;
   background: url('../img/hr-light.png') no-repeat center center;
 }
-.ourTeam ul {
+.team ul {
   margin-top: 45px;
 }
-.ourTeam li {
+.team li {
   margin: 70px 15px 0 15px;
   background: #ffffff;
   text-align: center;
@@ -223,18 +222,18 @@ a.learn {
   border-radius: 3px;
   display: inline-block;
 }
-.ourTeam li:first-of-type {
+.team li:first-of-type {
   margin-left: 0;
 }
-.ourTeam li:last-of-type {
+.team li:last-of-type {
   margin-right: 0;
 }
-.ourTeam li > img {
+.team li > img {
   margin-top: -70px;
   border-radius: 50%;
   border: 5px solid #acd373;
 }
-.ourTeam li h5 {
+.team li h5 {
   font-family: "Source Sans Pro";
   text-transform: uppercase;
   font-weight: bold;
@@ -242,7 +241,7 @@ a.learn {
   color: #acd373;
   margin-top: 15px;
 }
-.ourTeam li em {
+.team li em {
   font-family: "DroidSerif";
   font-style: italic;
   font-size: 16px;
@@ -250,7 +249,7 @@ a.learn {
   margin-top: 9px;
   display: block;
 }
-.ourTeam li div {
+.team li div {
   height: 70px;
   background: #ebebeb;
   line-height: 70px;
@@ -260,10 +259,32 @@ a.learn {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-.ourTeam li div img {
-  border-radius: 50%;
+.team li div img {
   vertical-align: middle;
   margin: 0 4px;
+}
+
+.hiring {
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  background: #9abd67;
+  color: #f2f2f2;
+  font-family: "Source Sans Pro";
+  font-weight: 18px;
+}
+.hiring a {
+  color: #f2f2f2;
+  font-family: "DroidSerif";
+  font-style: italic;
+  margin-left: 45px;
+  padding: 13px 16px;
+  border: 1px solid #f2f2f2;
+  text-decoration: none;
+}
+
+.works {
+  
 }
 
 .testimonials {
