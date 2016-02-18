@@ -187,15 +187,47 @@ a.learn {
   background-image: url('../img/services6.png');
 }
 
+
+.ourTeam {
+  background: #acd373;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #fff;
+}
+.ourTeam h3 {
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+}
+.ourTeam p {
+  font-family: "DroidSerif";
+  font-size: 18px;
+  margin-top: 20px;
+}
+.ourTeam hr {
+  border: none;
+  height: 10px;
+  margin-top: 18px;
+  background: url('../img/hr-light.png') no-repeat center center;
+}
+.ourTeam ul {
+  margin-top: 45px;
+}
 .ourTeam li {
   margin: 70px 15px 0 15px;
-  background: white;
+  background: #ffffff;
   text-align: center;
   width: 270px;
   height: 247px;
   position: relative;
   border-radius: 3px;
   display: inline-block;
+}
+.ourTeam li:first-of-type {
+  margin-left: 0;
+}
+.ourTeam li:last-of-type {
+  margin-right: 0;
 }
 .ourTeam li > img {
   margin-top: -70px;
