@@ -291,6 +291,11 @@ a.learn {
   
 }
 
+.logos {
+  height: 120px;
+  background: #ebebeb url('../img/logos.png') no-repeat center center;
+}
+
 .testimonials {
   padding-top: 120px;
   padding-bottom: 109px;
